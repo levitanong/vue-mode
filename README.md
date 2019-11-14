@@ -63,6 +63,17 @@ If you want to customize the region background color (default is highlight):
                (setq mmm-submode-decoration-level 0)))
 ```
 
+## Doom Emacs
+
+#### Develop Branch
+
+In `path/to/config/packages.el`, add an entry:
+```
+(package! vue-mode :recipe (:host github :repo "AdamNiederer/vue-mode"))
+```
+
+Then `doom refresh`
+
 # Q&A
 
 #### Why `js-mode` instead of `js2-mode`?
